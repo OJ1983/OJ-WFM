@@ -3,6 +3,8 @@
 OJ is designed for real people working in fast-moving, shift-based environments.  
 These personas represent the primary users of OJ and help guide design, UX, and product decisions.
 
+**Scope note:** Early MVP emphasis (see `roadmap.md` Phase 1) is on **manager and operational** workflows. Personas that include **employees** describe intended value on a longer horizon (e.g. Phase 4 employee experience) so stories stay grounded in real shift workers — not a claim that every flow ships in v1.
+
 ---
 
 # 🍊 Persona 1 — The Frontline Manager  
@@ -85,7 +87,7 @@ These personas represent the primary users of OJ and help guide design, UX, and 
 - Surfaces compliance risks early  
 - Provides clear skill expiry alerts  
 - Encourages daily engagement  
-- Acts as a companion to the core HCM  
+- Acts as a companion to the **core ERP / people platform** (data stays authoritative there)  
 
 ---
 

@@ -42,7 +42,7 @@ A standard orange has **10 natural segments**, and OJ uses this structure to rep
 4. Forecasting  
 5. Workforce Planning  
 6. Succession Planning  
-7. Skills & Competency  
+7. Skills & Competency Tracking  
 8. Compliance  
 9. Employee Experience  
 10. Insights & Analytics  
@@ -98,13 +98,13 @@ It’s friendly because WFM tools are often stressful.
 
 ---
 
-# 🍊 A Companion to the HCM, Not a Replacement
+# 🍊 A Companion to the Core Platform — Especially ERP — Not a Replacement
 
-OJ doesn’t try to replace the core HR or WFM system.  
-Instead, it acts as a **lightweight companion layer** that surfaces the actions that matter most.
+OJ doesn’t try to replace the **ERP**, people suite, or core WFM engine.  
+Instead, it acts as a **lightweight action layer** that surfaces the decisions and exceptions that matter most — wired through APIs for **People, Positions, Structures, organisational levels, Approvers, Projects**, and related workforce data.
 
-The HCM remains the source of truth.  
-OJ becomes the source of clarity.
+The core platform remains the source of truth.  
+OJ becomes the source of clarity for the day’s work.
 
 This makes OJ easy to integrate, easy to adopt, and easy to love.
 

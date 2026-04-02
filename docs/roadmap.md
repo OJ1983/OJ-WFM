@@ -7,7 +7,7 @@ It is structured into phases to show clear priorities and realistic delivery seq
 
 # 🍊 Phase 1 — MVP (3–4 Months)
 
-**Goal:** Deliver a lightweight, mobile-first action hub that complements an existing HCM/WFM system.
+**Goal:** Deliver a lightweight, mobile-first action hub that complements an existing **ERP or core people / WFM platform** via API integration (People, org, positions, approvers, projects, etc.).
 
 ### **Core Features**
 - OJ Wheel (10 segments)
@@ -16,7 +16,7 @@ It is structured into phases to show clear priorities and realistic delivery seq
 - Morning Briefing
 - Basic notifications
 - Mobile-first UI
-- Integration with HCM for:
+- Integration with core platform (ERP / people suite) for:
   - shifts  
   - absences  
   - time & attendance  
@@ -120,7 +120,7 @@ OJ becomes a strategic partner, not just a task list.
 - Multi-language support
 - Advanced compliance engines
 - Custom segment configurations
-- Deep integrations with payroll, HRIS, and ATS systems
+- Deep integrations with ERP, payroll, HRIS/ATS, and project systems where those objects drive workforce actions
 
 ### **Why this matters**
 OJ becomes a platform, not just a product.

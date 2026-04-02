@@ -3,7 +3,7 @@
 OJ uses a simple, lightweight API structure designed to support the mobile-first experience.  
 The API focuses on tasks, segments, and workforce data — the essentials needed to power the OJ Wheel.
 
-This document outlines the conceptual endpoints for the OJ system.
+This document outlines the conceptual endpoints for the OJ system. **End-to-end integration flows** (what to read/write on the core ERP vs OJ facade): see [`use-cases.md`](use-cases.md).
 
 ---
 
@@ -15,7 +15,7 @@ Returns the 10 OJ segments and their current state.
 **Example response:**
 - segment name  
 - number of tasks  
-- completion percentage  
+- completion percentage (**percent of that segment’s tasks completed** — higher = more “drained”; aligns with the wheel metaphor in `docs/capability-map.md`)  
 - alert level  
 
 ---
@@ -26,7 +26,7 @@ Returns the 10 OJ segments and their current state.
 Returns all tasks the user needs to complete today.
 
 ### **GET /tasks/{segmentId}**
-Returns tasks for a specific segment (e.g., Absence, Shifts).
+Returns tasks for a specific segment (e.g., Absence Management, Shift Management — see `docs/capability-map.md`).
 
 ### **POST /tasks/{taskId}/complete**
 Marks a task as completed.
@@ -109,6 +109,6 @@ This API structure:
 - keeps the system lightweight  
 - mirrors real WFM data flows  
 - demonstrates product + technical thinking  
-- shows how OJ could integrate with an HCM or payroll system  
+- shows how OJ could integrate with an **ERP / core people platform** (and payroll/project APIs where used)  
 
 This is not a production API — it’s a conceptual foundation for the OJ experience.

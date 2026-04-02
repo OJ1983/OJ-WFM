@@ -1,4 +1,11 @@
 {
+  "context": {
+    "legalEntityId": "LE-UK-RETAIL-01",
+    "managerPersonId": "ERP-P-10001",
+    "managerDisplayName": "Sarah Thompson",
+    "defaultOrgUnitId": "OU-LON-FLAGSHIP-12",
+    "coreSystem": "erp.example.vendor"
+  },
   "segments": [
     { "id": 1, "name": "Shift Management", "tasks": 2, "completion": 40 },
     { "id": 2, "name": "Time & Attendance", "tasks": 1, "completion": 70 },
@@ -6,36 +13,54 @@
     { "id": 4, "name": "Forecasting", "tasks": 0, "completion": 100 },
     { "id": 5, "name": "Workforce Planning", "tasks": 1, "completion": 60 },
     { "id": 6, "name": "Succession Planning", "tasks": 0, "completion": 100 },
-    { "id": 7, "name": "Skills & Competency", "tasks": 2, "completion": 50 },
+    { "id": 7, "name": "Skills & Competency Tracking", "tasks": 2, "completion": 50 },
     { "id": 8, "name": "Compliance", "tasks": 1, "completion": 80 },
     { "id": 9, "name": "Employee Experience", "tasks": 0, "completion": 100 },
     { "id": 10, "name": "Insights & Analytics", "tasks": 1, "completion": 60 }
   ],
-
   "tasks": [
     {
       "id": 101,
       "segmentId": 3,
       "title": "Approve holiday request",
       "description": "Sarah Jones has requested annual leave for 12–14 April.",
-      "priority": "high"
+      "priority": "high",
+      "coreRefs": {
+        "requesterPersonId": "ERP-P-44092",
+        "organisationalUnitId": "OU-LON-FLAGSHIP-12",
+        "absenceRequestId": "ABS-REQ-2026-08921",
+        "approvalWorkItemId": "WF-WLI-7721",
+        "approverLevel": "L2_SITE_MANAGER"
+      }
     },
     {
       "id": 102,
       "segmentId": 1,
       "title": "Fill uncovered shift",
       "description": "Tonight’s 18:00–22:00 shift has no assigned employee.",
-      "priority": "urgent"
+      "priority": "urgent",
+      "coreRefs": {
+        "shiftId": "SCH-SH-998112",
+        "organisationalUnitId": "OU-LON-FLAGSHIP-12",
+        "positionId": "POS-CUSTOMER-ASSISTANT-L2",
+        "projectId": null
+      }
     },
     {
       "id": 103,
       "segmentId": 7,
       "title": "Certification expiring",
       "description": "James Patel’s First Aid certificate expires in 5 days.",
-      "priority": "medium"
+      "priority": "medium",
+      "coreRefs": {
+        "personId": "ERP-P-55103",
+        "organisationalUnitId": "OU-LON-FLAGSHIP-12",
+        "certificationId": "CERT-FA-LEVEL2",
+        "learningRecordId": "LRN-2024-6612",
+        "expiryDate": "2026-04-07"
+      }
     }
   ],
-
   "briefing": {
     "totalTasks": 11,
     "urgent": 2,

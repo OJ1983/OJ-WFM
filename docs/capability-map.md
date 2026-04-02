@@ -145,5 +145,5 @@ This map:
 - creates a clear, memorable mental model  
 - differentiates OJ from traditional WFM dashboards  
 
-It also shows how OJ could complement any HCM or HRIS platform by providing a lightweight, action-first companion experience.
+It also shows how OJ could complement **ERP and core people platforms** — via API integration on People, organisation, positions, approvers, projects, and related workforce objects — by providing a lightweight, action-first experience on top.
 

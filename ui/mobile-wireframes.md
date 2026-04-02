@@ -3,7 +3,7 @@
 OJ is designed mobile-first.  
 Managers and employees in shift-based environments rarely sit at a desk, so the mobile experience must be simple, fast, and action-oriented.
 
-These wireframes describe the key screens and flows that bring the OJ Wheel to life on a mobile device.
+These wireframes describe target screens and flows (including paths that land in later roadmap phases for employees). For **canonical segment names**, use [`../docs/capability-map.md`](../docs/capability-map.md); examples below sometimes use short labels (e.g. “Absence Tasks”) where space is tight.
 
 ---
 
@@ -37,7 +37,7 @@ Give the user a clear, energising overview of what needs attention today.
 # 🍊 2. Segment Task List
 
 **Purpose:**  
-Show the user the tasks for a specific capability (e.g., Absence, Shifts).
+Show the user the tasks for a specific capability (e.g. Absence Management, Shift Management).
 
 **Layout:**
 - Slide-up panel from bottom (mobile-native pattern)  

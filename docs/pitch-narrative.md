@@ -48,6 +48,8 @@ OJ uses this structure to represent the 10 core areas of WFM:
 9. Employee Experience  
 10. Insights  
 
+*(Spoken shorthand — for specification, engineering, and UI copy, use the canonical names in [`capability-map.md`](capability-map.md): Shift Management, Absence Management, Workforce Planning, Succession Planning, Skills & Competency Tracking, Insights & Analytics.)*
+
 Each segment contains tasks or alerts.  
 As tasks are completed, the segment “empties” — like drinking your morning juice.
 
@@ -139,7 +141,7 @@ OJ becomes the daily companion for every manager in a shift-based workforce.
 It turns complexity into clarity.  
 It keeps the workforce moving.**
 
-OJ isn’t just a concept — it’s a new way of thinking about Workforce Management.
+OJ is a new way of thinking about Workforce Management — and there is a **live prototype** to show how it could feel day to day, not only on paper.
 
-👉 A live prototype is available at https://oj-wfm.lovable.app/
+👉 **Live prototype:** https://oj-wfm.lovable.app/
 

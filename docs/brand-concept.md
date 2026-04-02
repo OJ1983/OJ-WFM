@@ -35,4 +35,4 @@ This creates a simple, intuitive daily workflow:
 - Complete your actions  
 - Finish your OJ for the day  
 
-OJ is designed to complement any HCM or HRIS system by providing a lightweight, action-oriented companion experience.
+OJ is designed to complement **ERP and core people platforms** by providing a lightweight, action-oriented layer — integrated on standard domains such as People, Positions, organisation, Approvers, and Projects.

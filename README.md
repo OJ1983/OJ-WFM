@@ -67,18 +67,22 @@ OJ surfaces only what needs attention.
 WFM tools are often cold and transactional.  
 OJ is warm, energetic, and easy to navigate.
 
-### 4. Integrates with any HCM
-This concept is designed to complement — not replace — core HR systems.
+### 4. Extends ERP and core people platforms
+This concept is designed to complement **ERP and unified people / workforce systems** — same book of record, with OJ as the **action layer** over API surfaces such as People, Positions, Structures, organisational levels, Approvers, and Projects (where relevant).
 
 ---
 
-## 🍊 What’s in this Repo (Planned)
+## 🍊 What’s in this Repo
 
 - `/docs` — narrative, brand concept, capability mapping, integration vision  
 - `/ui` — OJ wheel concept, mobile and web flows  
-- `/api` — mock endpoints and data model  
+- `/api` — mock data, conceptual endpoints, and ERP-oriented use cases (`api/endpoints.md`, `api/use-cases.md`, `api/README.md`)  
 - `/assets` — logo concept, palette, app icon  
-- `/prototype` — optional lightweight UI prototype
+- `/prototype` — link and notes for the **live prototype** ([Lovable demo](https://oj-wfm.lovable.app/)); the interactive app is maintained there, not as a build in this repo  
+
+**Canonical product labels:** the 10 wheel segments and their full names are defined in `docs/capability-map.md`. Other docs may use shorter phrasing for pitches; that file is the naming source of truth.
+
+**Contributor index:** [`docs/CANONICAL.md`](docs/CANONICAL.md) — live demo link, scope, API/mock pointers, and governance in one place.
 
 ---
 
@@ -97,12 +101,14 @@ It is not a commercial product — it’s a **conceptual showcase**.
 
 ---
 
-## 🍊 Future Ideas
+## 🍊 Future Ideas (beyond MVP / demo depth)
 
-- Animated OJ wheel  
-- AI-powered “Morning Briefing”  
-- Integration with HRIS/Payroll APIs  
-- Skills-based shift recommendations  
+Stretch enhancements not fully reflected in the [roadmap](docs/roadmap.md) Phase 1 slice or the current Lovable build — for example:
+
+- Richer wheel motion and micro-interactions  
+- **AI-generated** Morning Briefing copy and prioritisation (Phase 1 already assumes a **summary** briefing; this is deeper personalisation)  
+- Deeper, bidirectional ERP / payroll / project integrations than a first companion slice  
+- Skills-based shift recommendations (see roadmap Phase 6)  
 
 ## 🍊 Live Prototype
 
