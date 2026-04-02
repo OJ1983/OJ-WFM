@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background: #FFF7E6;
+}
+
+#wheel {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 40px auto;
+  border-radius: 50%;
+  background: #FFB347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.segment {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: #FF8A00;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: bottom right;
+  transform: rotate(calc(var(--i) * 36deg)) skewY(-54deg);
+  border: 1px solid rgba(255,255,255,0.3);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.segment:hover {
+  background: #FFD36E;
+  color: #333;
+}
