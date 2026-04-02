@@ -1,0 +1,47 @@
+{
+  "segments": [
+    { "id": 1, "name": "Shift Management", "tasks": 2, "completion": 40 },
+    { "id": 2, "name": "Time & Attendance", "tasks": 1, "completion": 70 },
+    { "id": 3, "name": "Absence Management", "tasks": 3, "completion": 20 },
+    { "id": 4, "name": "Forecasting", "tasks": 0, "completion": 100 },
+    { "id": 5, "name": "Workforce Planning", "tasks": 1, "completion": 60 },
+    { "id": 6, "name": "Succession Planning", "tasks": 0, "completion": 100 },
+    { "id": 7, "name": "Skills & Competency", "tasks": 2, "completion": 50 },
+    { "id": 8, "name": "Compliance", "tasks": 1, "completion": 80 },
+    { "id": 9, "name": "Employee Experience", "tasks": 0, "completion": 100 },
+    { "id": 10, "name": "Insights & Analytics", "tasks": 1, "completion": 60 }
+  ],
+
+  "tasks": [
+    {
+      "id": 101,
+      "segmentId": 3,
+      "title": "Approve holiday request",
+      "description": "Sarah Jones has requested annual leave for 12–14 April.",
+      "priority": "high"
+    },
+    {
+      "id": 102,
+      "segmentId": 1,
+      "title": "Fill uncovered shift",
+      "description": "Tonight’s 18:00–22:00 shift has no assigned employee.",
+      "priority": "urgent"
+    },
+    {
+      "id": 103,
+      "segmentId": 7,
+      "title": "Certification expiring",
+      "description": "James Patel’s First Aid certificate expires in 5 days.",
+      "priority": "medium"
+    }
+  ],
+
+  "briefing": {
+    "totalTasks": 11,
+    "urgent": 2,
+    "highPriority": 4,
+    "forecast": "Demand expected to peak at 3pm.",
+    "complianceAlerts": 1,
+    "suggestedFocus": "Absence Management and Shift Coverage"
+  }
+}
