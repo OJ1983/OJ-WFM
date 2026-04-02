@@ -140,3 +140,6 @@ It turns complexity into clarity.
 It keeps the workforce moving.**
 
 OJ isn’t just a concept — it’s a new way of thinking about Workforce Management.
+
+👉 A live prototype is available at https://oj-wfm.lovable.app/
+
