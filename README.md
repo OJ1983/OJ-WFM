@@ -103,5 +103,19 @@ It is not a commercial product — it’s a **conceptual showcase**.
 - AI-powered “Morning Briefing”  
 - Integration with HRIS/Payroll APIs  
 - Skills-based shift recommendations  
+
+## 🍊 Live Prototype
+
+OJ has an interactive prototype built in Lovable.
+
+👉 **Try the live demo:** https://oj-wfm.lovable.app/
+
+This prototype demonstrates:
+- the OJ Wheel interaction  
+- mobile-first task flows  
+- the visual identity  
+- the “drink your juice” completion mechanic  
+- the overall feel of the OJ experience  
+
 - Succession heatmaps  
 - Compliance risk scoring  
